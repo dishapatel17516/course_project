@@ -28,5 +28,4 @@ with open("candidates.txt", "a") as f:
     f.write(f"{name}, {age}, {gender}, {phone}, {email}, "
             f"{address}, {city}, {qualification}, "
             f"{experience}, {position}\n")
-
 print("\nCandidate registered successfully!")
